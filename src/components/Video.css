@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+.video {
+    padding: 50px 0;
+  }
+  
+  .play-icon{
+    font-size: 50px;
+    color: red;
+  }
+ 
+  .video-section {
+    border: 1px solid #dd1717;
+    padding: 10px;
+  }
+  
+  .video-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #000),
+      url("./img/Video-img.jpg") local center center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .video-heading h3 {
+    color: #fff;
+    position: absolute;
+    bottom: 12%;
+    z-index: 8;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .video-play-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 50%;  
+    text-align: center;
+    z-index: 8;
+  }
+  
+  .video-play-btn {
+    color: #fff;
+    background-color: #dd1717;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+
+
+
+  

@@ -1,0 +1,62 @@
+.card-bg p:hover {
+    color: red;
+}
+
+.it-course-item {
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.it-course-thumb {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.it-course-rating i {
+    color: var(--it-theme-1);
+    font-size: 14px;
+}
+
+.it-course-info {
+    border-bottom: 1px dashed #4d5756;
+}
+
+.it-course-info>span i {
+    color: #000;
+    margin-right: 7px;
+}
+
+.fa-file-invoice:before {
+    content: "\f570";
+}
+
+.it-course-author img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.it-course-author>span {
+    color: var(--it-common-black-2);
+    font-size: 16px;
+    font-family: var(--it-ff-heading);
+    font-weight: 400;
+}
+
+.it-course-price-box a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: .3s;
+    font-family: var(--it-ff-heading);
+    color:black;
+    text-decoration: none !important;
+}
+
+.it-course-price-box a i {
+    font-size: 16px;
+    margin-right: 7px;
+}
